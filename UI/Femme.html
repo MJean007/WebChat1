@@ -1,0 +1,17 @@
+<div>
+    <table>
+        <tr>
+            <!-- photo de la fille-->
+            <td><img src="c:\\data\\docs\\images\\{{CurrentFemme.UserName}}.png" width="400px"></td>
+            <!-- photo de la fille sur chaturbate si elle est en ligne-->
+            <td><img src="https://roomimg.stream.highwebmedia.com/ri/{{CurrentFemme.UserName}}.jpg" width="400px"></td>
+        </tr>
+        <tr>
+            <li>Last connected: {{CurrentFemme.LastConnected}} </li>
+            <li>Nb d'acc&egrave;s: {{CurrentFemme.NbAcces}}</li>
+        </tr>
+        <tr>
+            <td><input type="text" [(ngModel)]="CurrentFemme.UserName"></td>
+        </tr>
+    </table>
+</div>
