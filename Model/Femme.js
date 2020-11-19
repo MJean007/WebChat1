@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Femme = void 0;
-// import * as sqlite3 from 'sqlite3';
+// import * as sqlite3 from '../node_modules/sqlite3/lib/sqlite3';
 // import { Database } from 'sqlite3';
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('../db/chaturdb.db');
