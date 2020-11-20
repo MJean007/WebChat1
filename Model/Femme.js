@@ -12,25 +12,13 @@ var Femme = /** @class */ (function () {
         this.FemmeId = 0;
         this.LastConnected = "";
         this.NbAcces = 0;
+        console.log('16 femme.ts');
     }
-    // constructor(_username: string, _lastConnected: string, _nbAcces: number)
-    // {
-    //     this.UserName = _username;
-    //     this.LastConnected = _lastConnected;
-    //     this.NbAcces = _nbAcces;
-    // }
-    // get
     Femme.prototype.get = function (username) {
         var row = '';
         var err = '';
         var chick = new Femme();
         var jsChick = utileSql3.getChick(username);
-        // let sql = 'SELECT Id, UserName, LastConnected, NbAcces FROM Femme where UserName = \'' + username + '\'';
-        // db.all(sql, [], (err, rows) => 
-        //   db.get(sql, [], (err, row) => {
-        //  if (err) {
-        //          console.log("33 Femme.ts get() une erreur est survenue: " + err.message);
-        //       }
         chick.FemmeId = Number(jsChick.id);
         chick.UserName = String(jsChick.UserName);
         chick.LastConnected = String(jsChick.LastConnected);

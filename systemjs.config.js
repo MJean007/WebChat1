@@ -26,7 +26,12 @@
             'ag-grid-ng2': '../node_modules/ag-grid-ng2',
             'ag-grid': '../node_modules/ag-grid',
 	'jquery': '../node_modules/jquery/dist/jquery.js',
-            'ng2-auto-complete': '../node_modules/ng2-auto-complete/dist'
+            'ng2-auto-complete': '../node_modules/ng2-auto-complete/dist',
+           
+            'events': '../node_modules/events/events.js',
+            'path': '../node_modules/lodash/fp/path.js',
+            'sqlite3': '../node_modules/sqlite3/lib/sqlite3.js'
+           
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
