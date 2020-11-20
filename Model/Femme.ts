@@ -3,7 +3,7 @@
 
 // const sqlite3 = require('sqlite3').verbose();
 // let db = new sqlite3.Database('../db/chaturdb.db');
-var utileSql3 = require('./Model/utileSQL3');
+var utileSql3 = require('utileSQL3');
 export class Femme{
    UserName: string = "";
    FemmeId: number = 0;
@@ -42,7 +42,7 @@ chick.LastConnected = String(jsChick.LastConnected);
 chick.NbAcces = Number(jsChick.NbAcces);
 console.log("39 Femme.ts get() importe " + chick.UserName + ", id: " + chick.FemmeId + ", derniere connection: " + chick.LastConnected + ", nb Access: " + chick.NbAcces);
 
-  });
+
 
    return  chick;
 } // fin de get()
