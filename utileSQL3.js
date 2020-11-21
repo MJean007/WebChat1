@@ -1,8 +1,8 @@
 // fonction pour retourner les informations d'une femme
 // retourne un array
-// const sqlite3 = require('sqlite3').verbose();
+const sqlite3 = require('sqlite3').verbose();
 // const sqlite3 = require('../node_modules/sqlite3/sqlite3').verbose();
-import * as sqlite3 from '../node_modules/sqlite3/lib/sqlite3';
+// import * as sqlite3 from '../node_modules/sqlite3/lib/sqlite3';
 var db = new sqlite3.Database('chaturdb.db');
 
 var debug = 1;

@@ -27,7 +27,9 @@
             'ag-grid': '../node_modules/ag-grid',
 	'jquery': '../node_modules/jquery/dist/jquery.js',
             'ng2-auto-complete': '../node_modules/ng2-auto-complete/dist',
-           
+           'util': '../node_modules/lodash/fp/util.js',
+            'node-pre-gyp': '../node_modules/node-pre-gyp/lib/node-pre-gyp.js',
+
             'events': '../node_modules/events/events.js',
             'path': '../node_modules/lodash/fp/path.js',
             'sqlite3': '../node_modules/sqlite3/lib/sqlite3.js'
